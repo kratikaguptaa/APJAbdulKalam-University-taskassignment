@@ -1,0 +1,16 @@
+
+Task description: You have to prepare/design template1) What you will find in package?
+
+a) desktop_design.png for desktop design reference
+b) responsive_view.png for responsive design reference
+c) resources folder where you will all image used in this template.
+
+
+2) What you have to use?
+a) You have to use bootstrap latest version
+b) You can use jQuery library plugin if you need to use any jQuery function.
+c) Fonts you have to use roboto regular for normal text and roboto bold for heading.
+
+
+note:Whole template will be static (no database interaction) but should be done 
+using basic html/css and bootstrap.

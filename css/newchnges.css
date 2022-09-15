@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.cntnr-sect-t{ padding-top: 50px;}
+.cntnr-sect-b{ padding-bottom: 50px;}
+.padd-t-30-16{ padding-top: 30px;}
+
+/*common css section here*/
+.h1,
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.h2,
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.h3,
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.h4,
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.h5,
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.h6,
+h6 {
+    font-size: 12px;
+    font-weight: 600;
+}
+p {
+    font-size: 15px;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    outline: none;
+}
+
+
+
+.flex {
+    display: flex;
+}
+.block{
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+.none-block{ display: block; }
+.mob-none-block{ display: none;}
+.vrt-middle {
+    vertical-align: middle;
+}
+.font-12 {
+    font-size: 12px;
+    line-height: normal;
+}
+.font-14 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.font-16 {
+    font-size: 16px !important;
+}
+.font-18{
+    font-size: 18px;
+    line-height: 26px;
+}
+.font-20{
+    font-size: 20px;
+    line-height: 30px;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* ----------------------- Text Color-----------------------*/
+.text-dark {
+    color: #000 !important;
+}
+.white-text {
+    color: #fff !important;
+}
+.accent-color {
+    color: #12a7c8;
+}
+.orng-color{ 
+    color: #ff6600;
+}
+.accent-2color {
+    color: #007bff;
+}
+.grey-color{ 
+    color:#9a9e9f;
+}
+
+
+
+/* ----------------------- Background -----------------------*/
+.orange-bg {
+    background-color: #ff6600;
+    color: #fff;
+    margin-right:20px;
+}
+.bg-dardk {
+    background-color:#0c2136;
+}
+.web-bg {
+    background: #007bff;
+    padding: 20px;
+    color: #fff;
+}
+.black-bg{
+    background-color:#1c1c1c ;
+}
+.grey-opcty{ background-color: #fafafa;}
+
+

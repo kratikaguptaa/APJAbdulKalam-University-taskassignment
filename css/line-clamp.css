@@ -1,0 +1,50 @@
+.line-clamp {
+    display: initial;
+    display: -webkit-box
+}
+
+.line-clamp {
+    display: block;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    position: relative;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    text-decoration: initial;
+    outline: initial
+}
+
+.line-clamp:after {
+    content: '...';
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    display: block;
+    position: absolute;
+    height: calc(1em * 1.5);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 75%)
+}
+
+@supports (-webkit-line-clamp: 1) {
+    .line-clamp:after {
+        display: none !important
+    }
+}
+
+.line-clamp-1 {
+    -webkit-line-clamp: 1;
+    height: calc(1em * 1.5 * 1)
+}
+
+.line-clamp-2 {
+    -webkit-line-clamp: 2;
+    height: calc(1em * 1.5 * 2)
+}
+
+.line-clamp-3 {
+    -webkit-line-clamp: 3;
+    height: calc(1em * 1.5 * 3)
+}
